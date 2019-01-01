@@ -4,7 +4,7 @@
 {-# LANGUAGE MultiParamTypeClasses #-}
 {-# LANGUAGE FunctionalDependencies #-}
 {-# LANGUAGE TypeInType #-}
-{-# LANGUAGE GADTs ,ExplicitNamespaces#-}
+{-# LANGUAGE GADTs #-}
 {-# LANGUAGE UnboxedTuples #-}
 {-# LANGUAGE PatternSynonyms#-}
 {-# LANGUAGE BangPatterns #-}
@@ -12,7 +12,7 @@
 module Data.Unboxed.Maybe where
 
 import GHC.Exts
-import GHC.Types
+--import GHC.Types
 --import qualified  Prelude as Pre
 --import Data.Void
 

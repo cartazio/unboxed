@@ -16,7 +16,7 @@ version:             0.1.0.0
 synopsis:            All the standard sum types but strict and unboxed as possible
 
 -- A longer description of the package.
--- description:
+description: experimental package for unlifted / unboxed sum types
 
 -- URL for the project homepage or repository.
 homepage:            github.com/cartazio/unboxed
@@ -61,7 +61,7 @@ library
   -- other-extensions:
 
   -- Other library packages from which modules are imported.
-  build-depends:        base >=4.10 && <4.11
+  build-depends:        base >=4.10 && <5
                         ,ghc-prim
 
   -- Directories containing source files.
