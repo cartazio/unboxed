@@ -16,7 +16,7 @@ version:             0.1.0.0
 synopsis:            All the standard sum types but strict and unboxed as possible
 
 -- A longer description of the package.
-description: experimental package for unlifted / unboxed sum types
+description: experimental package for unlifted / unboxed sum types. Expect dicoveries of new ways to make GHC cry.
 
 -- URL for the project homepage or repository.
 homepage:            github.com/cartazio/unboxed
